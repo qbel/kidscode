@@ -1,0 +1,156 @@
+﻿/*
+THEME COLOR = #ffb901
+*/
+
+/* color */
+
+a,
+.text-theme,
+.higlighted-style3,
+.btn--bordered.btn--white:active,
+.btn--bordered.btn--white:focus,
+.btn--bordered.btn--white:hover,
+.portfolio-filter li a.active-filter,
+.portfolio-filter li a:hover,
+.btn--bordered.btn--primary,
+.social-module .social--icons a:hover,
+.header-fixed .affix .contact-module .btn,
+.hero-9 .social--icons a:hover,
+.testimonials-4 .slider-navs .owl-controls .owl-nav [class*=owl-]:hover,
+.feature-panel .feature--icon,
+.feature-left-circle .feature--icon,
+.footer .widget--social a:hover,
+.footer-8 .widget--info-box i,
+.carousel-navs .owl-controls .owl-nav [class*=owl-]:hover,
+.landing-demos .portfolio-title:hover h4,
+.portfolio-filter li a.active-filter,
+.portfolio-filter li a:hover,
+.device-3 .device--content .device--price,
+.tabs .nav-tabs > li.active > a h3,
+.tabs .nav-tabs > li.active > a:focus h3,
+.tabs .nav-tabs > li.active > a:hover h3,
+.tabs .nav-tabs > li.active > a i,
+.tabs .nav-tabs > li.active > a:focus i,
+.tabs .nav-tabs > li.active > a:hover i,
+.portfolio-filter ul li a:hover,
+.portfolio-filter ul li a.active-filter,
+.timeline-tab .nav-tabs > li > a {
+    color: #ffb901;
+}
+
+
+
+/* color (IMPORTANT) */
+
+.color-theme {
+    color: #ffb901 !important;
+}
+
+
+
+
+
+/* background color */
+
+::selection,
+.higlighted-style1,
+.btn--primary,
+.header-fixed .affix .contact-module .btn:hover,
+.feature-left-circle .feature-panel:hover .feature--icon,
+.cta--form .agree--text a:after,
+.video--player:hover,
+.skills .progress-bar,
+.portfolio--img .portfolio--hover,
+.timeline-tab .nav-tabs > li > a:focus,
+.timeline-tab .nav-tabs > li > a:hover,
+.timeline-tab .nav-tabs > li.active > a,
+.timeline-tab .nav-tabs > li.active > a:focus,
+.timeline-tab .nav-tabs > li.active > a:hover,
+.timeline-content .timeline-panel-right:before,
+.btn--secondary:active,
+.btn--secondary:focus,
+.btn--secondary:hover,
+.btn--white:active,
+.btn--white:focus,
+.btn--white:hover,
+.btn--bordered.btn--primary:active,
+.btn--bordered.btn--primary:focus,
+.btn--bordered.btn--primary:hover,
+.btn--white.btn--secondary:active,
+.btn--white.btn--secondary:focus,
+.btn--white.btn--secondary:hover,
+.navbar-toggle .icon-bar {
+    background-color: #ffb901;
+}
+
+
+
+/* background color (IMPORTANT) */
+
+.bg-theme {
+    background-color: #ffb901 !important;
+}
+
+
+
+/* Borders */
+
+.border-all,
+.border-top,
+.border-bottom,
+.border-right,
+.border-left,
+.navbar-toggle,
+.form-control:focus,
+.btn--primary,
+.btn--bordered.btn--primary,
+.header-fixed .affix .contact-module .btn,
+.feature-left-circle .feature--icon,
+.feature-left-circle .feature-panel:hover .feature--icon,
+.slider-theme.slider-dots .owl-controls .owl-dots .owl-dot span,
+.timeline-tab .nav-tabs,
+.btn--secondary:active,
+.btn--secondary:focus,
+.btn--secondary:hover,
+.btn--white:active,
+.btn--white:focus,
+.btn--white:hover,
+.btn--bordered.btn--primary:active,
+.btn--bordered.btn--primary:focus,
+.btn--bordered.btn--primary:hover,
+.btn--white.btn--secondary:active,
+.btn--white.btn--secondary:focus,
+.btn--white.btn--secondary:hover {
+    border-color: #ffb901;
+}
+
+
+
+
+
+
+
+/* background color (RGBA)*/
+
+.bg-overlay-theme:before {
+    background-color: rgba(255, 185, 1, 0.7);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .navbar-toggle .icon-bar {
+        background-color: #ffb901;
+    }
+    .navbar-toggle {
+        border-color: #ffb901;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-toggle {
+        border-color: #ffb901;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #ffb901;
+    }
+}

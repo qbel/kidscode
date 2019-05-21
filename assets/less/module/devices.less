@@ -1,0 +1,229 @@
+/*------------------------------------*\
+    #devices
+\*------------------------------------*/
+
+.device {
+    padding: 185px 0
+}
+
+.device .heading .heading--title {
+    text-transform: unset;
+}
+
+.device .heading {
+    margin-bottom: 33px;
+}
+
+/* Device #7 */
+
+.device-3 .device--content {
+    padding-top: 100px;
+}
+
+
+.device-3 .device--content .device--price {
+    color: @color-theme;
+    font-family: @font-heading;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 44px;
+}
+
+
+.device-3 .select-order {
+    margin-right: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.device-3 input[type=number]::-webkit-outer-spin-button,
+.device-3 input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.device-3 input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.device-3 .select-order input {
+    width: 85px;
+    height: 45px;
+    border: 1px solid #eeeeee;
+    border-radius: 2px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-right: 12px;
+    position: relative;
+}
+
+.device-3 .select-order .add-num {
+    color: #333;
+    position: absolute;
+    top: 8px;
+    right: 18px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.device-3 .select-order .minus-num {
+    color: #333;
+    font-family: fontawesome;
+    position: absolute;
+    bottom: 8px;
+    right: 18px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.device-3 .device-slider img {
+    max-width: 100%;
+    width: auto !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.device-3 .device-slider .owl-thumbs {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.device-3 .device-slider .owl-thumbs .owl-thumb-item {
+    border: none;
+    background-color: transparent;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.device-3 .device-slider .owl-thumbs .owl-thumb-item:last-of-type {
+    padding-right: 0;
+}
+
+.device-3 .device-slider .owl-thumbs .owl-thumb-item:first-of-type {
+    padding-left: 0;
+}
+
+.device-3 .device-slider .owl-thumb-item img {
+    opacity: 0.8;
+}
+
+.device-3 .device-slider .owl-thumb-item.active img {
+    opacity: 1;
+}
+
+
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .device {
+        text-align: center;
+        padding: 100px 0
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .device {
+        padding: 100px 0
+    }
+    .device-3 .device-slider .owl-thumbs .owl-thumb-item {
+        max-width: 130px;
+    }
+    .device-3 .device--content {
+        padding-top: 0
+    }
+    .device-1 img,
+    .device-2 img {
+        padding-top: 100px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .device {
+        padding: 100px 0
+    }
+    .device-1 img,
+    .device-2 img {
+        padding-top: 100px;
+    }
+
+}
+
+/* mockup */
+
+.mockup {
+    position: relative;
+}
+
+.mockup .mockup--img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transform: translateX(85px);
+    -moz-transform: translateX(85px);
+    -ms-transform: translateX(85px);
+    transform: translateX(85px);
+}
+
+.mockup.feature-left .feature-panel {
+    margin-bottom: 39px;
+}
+
+.mockup .feature-panel .feature--icon {
+    font-size: 40px;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .mockup .mockup--img {
+        position: static;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .mockup .mockup--img {
+        position: static;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .mockup .mockup--img {
+        -webkit-transform: translateX(250px);
+        -moz-transform: translateX(250px);
+        -ms-transform: translateX(250px);
+        transform: translateX(250px);
+    }
+
+    .mockup .mockup--img img {
+        max-width: inherit;
+    }
+
+}

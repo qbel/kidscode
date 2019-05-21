@@ -1,0 +1,50 @@
+/*------------------------------------*\
+    clients 
+\*------------------------------------*/
+
+.row-clients:first-of-type {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.row-clients [class*="col-"] {
+    border-right: 1px solid #e5e5e5;
+}
+
+.row-clients [class*="col-"]:last-of-type {
+    border-right: none;
+}
+
+.client {
+    height: 125px;
+    line-height: 125px;
+    text-align: center;
+}
+
+.client img {
+    max-width: 100%;
+    opacity: 0.25;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+.client:hover img {
+    opacity: 1
+}
+
+.clients-2 .client img {
+    opacity: 1
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .row-clients:first-of-type,
+    .row-clients [class*="col-"] {
+        border: none;
+    }
+
+}

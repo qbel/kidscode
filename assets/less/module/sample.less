@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    #sample
+\*------------------------------------*/
+
+.samples--mockup {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -315px;
+    margin-top: -31px;
+    width: 633px;
+    height: 451px;
+    background: url(../images/mockup/tablet.png) center no-repeat;
+    z-index: 3;
+}
+
+.samples .sample--img img {
+    width: auto;
+    max-width: 100%
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .samples .heading {
+        margin-bottom: 70px !important;
+    }
+    .samples .carousel-navs .owl-controls .owl-nav {
+        display: none !important
+    }
+}

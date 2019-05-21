@@ -1,0 +1,80 @@
+/*------------------------------------*\
+    #FORMS
+\*------------------------------------*/
+
+.form-control {
+    color: #bdbdbd;
+    font-family: @font-body;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    height: 45px;
+    text-transform: inherit;
+    border: 1px solid #e0e0e0;
+    background: @color-white;
+    padding-left: 24px;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 3px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: @color-theme;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+textarea.form-control {
+    min-height: 250px;
+    line-height: 24px;
+}
+
+/* Placeholder */
+
+.form-control::-webkit-input-placeholder {
+    color: #bdbdbd;
+    text-transform: capitalize
+}
+
+.form-control:-moz-placeholder {
+    color: #bdbdbd;
+    text-transform: capitalize
+}
+
+.form-control::-moz-placeholder {
+    color: #bdbdbd;
+    text-transform: capitalize
+}
+
+.form-control:-ms-input-placeholder {
+    color: #bdbdbd;
+    text-transform: capitalize
+}
+
+.input-group {
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    overflow: hidden;
+    padding: 3px;
+}
+
+.input-group .btn {
+    width: 160px;
+}
+
+.input-group .input-group-btn {
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+label.error {
+    color: #df2a10;
+    position: absolute;
+    top: -20px;
+    left: 15px;
+}

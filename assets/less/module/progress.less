@@ -1,0 +1,67 @@
+/*------------------------------------*\
+    #Skills
+\*------------------------------------*/
+
+.skills {
+    padding-bottom: 50px;
+}
+
+.skills .progressbar {
+    margin-bottom: 35px;
+    width: 500px;
+}
+
+.skills .progress {
+    height: 5px;
+    background-color: #f2f2f2;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+.skills .progress-bar {
+    background-color: @color-theme;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    /*width: 0;*/
+}
+
+.skills .progress-title {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 17px;
+    line-height: 1;
+}
+
+.skills .progress-title .title {
+    color: #333;
+    font-family: @font-heading;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.skills .progress-title .value {
+    float: right;
+    color: #333;
+    font-family: @font-heading;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+
+    .skills .progressbar {
+        width: 100%;
+    }
+}

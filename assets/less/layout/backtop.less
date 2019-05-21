@@ -1,0 +1,39 @@
+/*------------------------------------*\
+    #BACK TO TOP
+\*------------------------------------*/
+
+#back-to-top {
+    z-index: 9999;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    opacity: 0;
+}
+
+.backtop {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    color: @color-white;
+    cursor: pointer;
+    transition: opacity 0.2s ease-out;
+    background-color: @color-theme;
+    font-size: 22px;
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
+
+#back-to-top:hover {
+    background-color: @color-heading
+}
+
+@media only screen and (max-width: 992px) {
+
+    #back-to-top.show {
+        opacity: 0
+    }
+}

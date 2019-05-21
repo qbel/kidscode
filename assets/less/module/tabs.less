@@ -1,0 +1,91 @@
+/*------------------------------------*\
+	#tabs
+\*------------------------------------*/
+
+.tabs .nav-tabs {
+    border-bottom: none;
+}
+
+.tabs .tab-content p {
+    font-family: @font-body;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.tabs .nav-tabs {
+    margin-bottom: 41px;
+}
+
+.tabs .nav-tabs > li {
+    text-align: center;
+    margin-right: 80px;
+    float: none;
+    display: inline-block;
+}
+
+.tabs .nav-tabs > li:last-child {
+    margin-right: 0;
+}
+
+.tabs .nav-tabs > li > a {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.tabs .nav-tabs > li > a i {
+    color: #bdbdbd;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 17px;
+    display: block;
+}
+
+.tabs .nav-tabs > li > a h3 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #aaa
+}
+
+.tabs .nav-tabs > li > a,
+.tabs .nav-tabs > li > a:focus,
+.tabs .nav-tabs > li > a:hover {
+    background-color: transparent;
+    border: none;
+}
+
+.tabs .nav-tabs > li.active > a,
+.tabs .nav-tabs > li.active > a:focus,
+.tabs .nav-tabs > li.active > a:hover {
+    background-color: transparent;
+    border: none;
+
+}
+
+.tabs .nav-tabs > li.active > a h3,
+.tabs .nav-tabs > li.active > a:focus h3,
+.tabs .nav-tabs > li.active > a:hover h3,
+.tabs .nav-tabs > li.active > a i,
+.tabs .nav-tabs > li.active > a:focus i,
+.tabs .nav-tabs > li.active > a:hover i {
+    color: @color-theme;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .tabs .nav-tabs > li {
+        margin-right: 10px;
+    }
+}
+
+
+.tabs hr {
+    margin-top: 92px;
+    margin-bottom: 0;
+}

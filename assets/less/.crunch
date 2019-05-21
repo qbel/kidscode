@@ -1,0 +1,65 @@
+{
+	"files": {
+		"style.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../css/style.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": true
+					}
+				}
+			],
+			"sources": [
+				"base/base.less",
+				"base/mixins.less",
+				"base/vars.less",
+				"layout/align.less",
+				"layout/background.less",
+				"layout/backtop.less",
+				"layout/buttons.less",
+				"layout/color.less",
+				"layout/forms.less",
+				"layout/grid.less",
+				"layout/typography.less",
+				"module/action.less",
+				"module/app.less",
+				"module/banner.less",
+				"module/blockquotes.less",
+				"module/cards.less",
+				"module/carousel.less",
+				"module/chapters.less",
+				"module/clients.less",
+				"module/countdown.less",
+				"module/devices.less",
+				"module/feature.less",
+				"module/footer.less",
+				"module/header.less",
+				"module/heading.less",
+				"module/hero.less",
+				"module/landing.less",
+				"module/loading.less",
+				"module/menu-max1200.less",
+				"module/menu-max479.less",
+				"module/menu-max767.less",
+				"module/menu-max991.less",
+				"module/menu-min992.less",
+				"module/menu.less",
+				"module/portfolio.less",
+				"module/pricing.less",
+				"module/progress.less",
+				"module/sample.less",
+				"module/tabs.less",
+				"module/team.less",
+				"module/testimonial.less",
+				"module/timeline.less",
+				"module/video.less"
+			]
+		}
+	}
+}

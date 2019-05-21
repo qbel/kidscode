@@ -1,0 +1,118 @@
+/*------------------------------------*\
+	#team
+\*------------------------------------*/
+
+.member {
+    position: relative;
+}
+
+.member--img {
+    margin-bottom: 30px;
+}
+
+.member--info h5 {
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.member--info h6 {
+    color: @color-body;
+    font-family: @font-body;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+
+/* Team #1 */
+
+.team-1 .member {
+    margin-bottom: 60px;
+}
+
+.team-1 .member .member--img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.team-1 .member .member--img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.team-1 .member .member--info {
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+
+.team-1 .member .member--info h6 {
+    margin-bottom: 28px;
+}
+
+
+.team-1 .member .member--info p {
+    color: #aaaaaa;
+    margin-bottom: 0;
+}
+
+
+
+/* team #3 */
+
+.team-3 .teams {
+    position: relative;
+}
+
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+   
+
+
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .team-1 .member .member--img img {
+        width: 90px;
+        height: 90px;
+    }
+    .team-1 .member .member--info {
+        padding-left: 110px;
+        padding-top: 0;
+    }
+
+    .team-2 .member {
+        margin-bottom: 30px;
+    }
+
+    .team-3 .img-1,
+    .team-3 .img-3 {
+        max-width: 160px;
+    }
+
+    .team-3 .img-2 {
+        max-width: 210px;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.team img{
+	 max-width: 100%;
+		height: auto;
+	}
+}
